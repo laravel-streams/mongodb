@@ -1,0 +1,32 @@
+{
+    "name": "streams/mongodb",
+    "description": "Add MongoDB support to Streams.",
+    "authors": [
+        {
+            "name": "Ryan Thompson",
+            "email": "ryan@fundamental.company"
+        }
+    ],
+    "require": {
+        "streams/core": "^2.0",
+        "mongodb/mongodb": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Streams\\MongoDb\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Streams\\MongoDb\\MongoDbServiceProvider"
+            ]
+        }
+    }
+}
