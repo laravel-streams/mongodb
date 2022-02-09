@@ -12,13 +12,18 @@
         "streams/core": "^2.0",
         "mongodb/mongodb": "^1.10"
     },
+    "require-dev": {
+        "streams/testing": "^1.0"
+    },
     "autoload": {
         "psr-4": {
             "Streams\\MongoDb\\": "src/"
         }
     },
-    "config": {
-        "bin-dir": "bin"
+    "autoload-dev": {
+        "psr-4": {
+            "Streams\\MongoDb\\Tests\\": "tests/"
+        }
     },
     "extra": {
         "branch-alias": {
