@@ -2,9 +2,9 @@
 
 namespace Streams\MongoDb;
 
-use Streams\Core\Support\Provider;
+use Illuminate\Support\ServiceProvider;
 
-class MongoDbServiceProvider extends Provider
+class MongoDbServiceProvider extends ServiceProvider
 {
 
 }

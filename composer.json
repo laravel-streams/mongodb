@@ -2,6 +2,8 @@
     "name": "streams/mongodb",
     "description": "Add MongoDB support to Streams.",
     "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Ryan Thompson",
